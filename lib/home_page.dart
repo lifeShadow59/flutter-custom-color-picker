@@ -91,10 +91,6 @@ class MyHomePage extends StatelessWidget {
     final double sacreenTouch = (value * 100) / _homePageConroller.screenWidth;
 
     _homePageConroller.selectedColorIndex = ((256 * sacreenTouch) ~/ 100) - 1;
-
-    // print()
-    print(
-        '$value   ${_homePageConroller.xPointer}   ${_homePageConroller.selectedColorIndex}');
   }
 }
 
